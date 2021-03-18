@@ -1,0 +1,24 @@
+{
+  "name": "octobay.github.io",
+  "description": "Octobay Landingpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "rellax": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Octobay/octobay.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Octobay/octobay.github.io/issues"
+  },
+  "homepage": "https://github.com/Octobay/octobay.github.io#readme"
+}
