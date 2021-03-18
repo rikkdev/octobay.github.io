@@ -31,23 +31,61 @@
         animation-duration: 4s;
         animation-fill-mode: forwards;
         animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
-        animation-delay: 2.5s;
+        animation-delay: 2s;
       }
 
       @keyframes header-content-fade {
         from {
-          opacity: 0
+          opacity: 0;
         }
         to {
-          opacity: 1
+          opacity: 1;
         }
       }
 
-      header .header-content h1 {
+      header .header-content .header-text {
+        margin: 8%
+      }
+
+      header .header-content .header-text h1 {
         font-weight: 900;
-        font-size: 10rem;
-        margin: 10%;
+        font-size: 8rem;
+        margin-left: 10rem;
         text-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+        animation-name: header-content-slide-left;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+        animation-delay: 2s;
+      }
+
+      @keyframes header-content-slide-left {
+        from {
+          padding-left: 4rem;
+        }
+        to {
+          padding-left: 0rem;
+        }
+      }
+
+      header .header-content .header-text h2 {
+        font-weight: 700;
+        font-size: 5rem;
+        text-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
+        animation-name: header-content-slide-right;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+        animation-delay: 2s;
+      }
+
+      @keyframes header-content-slide-right {
+        from {
+          padding-left: 0rem;
+        }
+        to {
+          padding-left: 4rem;
+        }
       }
 
       header .header-dimmer {
@@ -56,7 +94,8 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: #652FFF;
+        background-color: #211a5a;
+        background-position: top;
         z-index: 10;
         animation-name: header-dimmer;
         animation-duration: 4s;
@@ -67,11 +106,21 @@
 
       @keyframes header-dimmer {
         from {
-          opacity: 1
+          opacity: 1;
         }
         to {
-          opacity: 0.1
+          opacity: 0.1;
         }
+      }
+
+      header .header-dimmer-gradient {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(180deg, rgba(33,26,90,0.5) 0%, rgba(33,26,90,0) 100%);
+        z-index: 10;
       }
 
       header .rellax {
@@ -81,11 +130,6 @@
       header .rellax img {
         width: 100vw;
         vertical-align: baseline;
-      }
-
-      header h1 {
-        position: absolute;
-        z-index: 10
       }
 
       section {
@@ -103,9 +147,13 @@
   <body>
     <header>
       <div class="header-content">
-        <h1 class="text-white">Octobay</h1>
+        <div class="header-text rellax" data-rellax-speed="-5">
+          <h1 class="text-white">Octobay</h1>
+          <h2 class="text-white">The future of Open Source<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;collaboration and funding.</h2>
+        </div>
       </div>
       <div class="header-dimmer"></div>
+      <div class="header-dimmer-gradient rellax" data-rellax-speed="0"></div>
       <div class="rellax" data-rellax-speed="-10">
         <img src="img/header-layer-sky-and-sun.png" />
       </div>
