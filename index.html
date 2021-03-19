@@ -44,7 +44,8 @@
       }
 
       header .header-content .header-text {
-        margin: 8%
+        padding: 8%;
+        width: 100%;
       }
 
       header .header-content .header-text h1 {
@@ -87,6 +88,41 @@
         to {
           padding-left: 4rem;
         }
+      }
+
+      header .header-content .logo {
+        width: 80px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      header .header-content .nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 30px
+      }
+
+      header .header-content .nav a {
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 2rem;
+      }
+
+      header .header-content .call-to-action {
+        color: white;
+        background-color: #ff006a;
+        border-radius: 25px;
+        font-weight: 800;
+        font-size: 2.3rem;
+        padding: .5rem 2rem;
+        box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+      }
+      
+      header .header-content .call-to-action.call-to-action-invert {
+        color: #ff006a;
+        background-color: white;
       }
 
       header .header-dimmer {
@@ -148,9 +184,19 @@
   <body>
     <header>
       <div class="header-content">
+        <img src="img/logo.png" class="logo" />
+        <div class="nav">
+          <a href="#" class="btn btn-link text-white">Documentation</a>
+          <a href="#" class="btn btn-link text-white">Smart Bounties</a>
+          <a href="#" class="btn btn-link text-white">Team</a>
+        </div>
         <div class="header-text rellax" data-rellax-speed="-5">
           <h1 class="text-white">Octobay</h1>
           <h2 class="text-white">The future of Open Source<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;collaboration and funding.</h2>
+          <div class="mt-5 pt-5 d-flex justify-content-center">
+            <a href="#" class="btn btn-lg call-to-action me-3">Launch App</a>
+            <a href="#" class="btn btn-lg call-to-action call-to-action-invert ms-3">Whitepaper</a>
+          </div>
         </div>
       </div>
       <div class="header-dimmer"></div>
