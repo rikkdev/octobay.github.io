@@ -50,7 +50,7 @@
 
       header .header-content .header-text h1 {
         font-weight: 900;
-        font-size: 8rem;
+        font-size: 6vw;
         margin-left: 10rem;
         text-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
         animation-name: header-content-slide-left;
@@ -72,7 +72,7 @@
       header .header-content .header-text h2 {
         margin-top: 1rem;
         font-weight: 700;
-        font-size: 5rem;
+        font-size: 3vw;
         text-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
         animation-name: header-content-slide-right;
         animation-duration: 2s;
@@ -99,6 +99,7 @@
 
       header .header-content .nav {
         position: absolute;
+        z-index: 11;
         top: 0;
         right: 0;
         margin: 30px
@@ -107,7 +108,16 @@
       header .header-content .nav a {
         text-decoration: none;
         font-weight: 800;
-        font-size: 2rem;
+        font-size: 1.5vw;
+        box-shadow: none !important;
+        transition: color .3s ease, background-color .3s ease;
+        border-radius: 25px;
+        padding: 0.5rem 2rem;
+      }
+
+      header .header-content .nav a:hover {
+        color: #ff006a !important;
+        background-color: white !important;
       }
 
       header .header-content .call-to-action {
@@ -186,8 +196,8 @@
       <div class="header-content">
         <img src="img/logo.png" class="logo" />
         <div class="nav">
-          <a href="#" class="btn btn-link text-white">Documentation</a>
           <a href="#" class="btn btn-link text-white">Smart Bounties</a>
+          <a href="#" class="btn btn-link text-white">Promotion</a>
           <a href="#" class="btn btn-link text-white">Team</a>
         </div>
         <div class="header-text rellax" data-rellax-speed="-5">
