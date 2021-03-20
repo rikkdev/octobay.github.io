@@ -20,6 +20,19 @@
         height: 70.3125vw;
       }
 
+      @media screen and (max-width: 960px) {
+        header {
+          z-index: 1;
+          height: 140.625vw;
+        }
+
+        header .rellax img {
+          width: 150vw !important;
+          margin-left: -25%;
+          vertical-align: baseline;
+        }
+      }
+
       header .header-content {
         position: absolute;
         z-index: 11;
@@ -166,7 +179,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: linear-gradient(180deg, rgba(33,26,90,0.5) 0%, rgba(33,26,90,0) 100%);
+        background: linear-gradient(180deg, rgba(33,26,90,0.4) 0%, rgba(33,26,90,0) 100%);
         z-index: 10;
       }
 
@@ -183,6 +196,20 @@
         background-color: white;
         position: relative;
         z-index: 2;
+        opacity: 0;
+        animation-name: content-fade;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        animation-delay: 5s;
+      }
+
+      @keyframes content-fade {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
       }
 
       footer {
