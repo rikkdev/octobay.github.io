@@ -1,0 +1,62 @@
+@media screen and (max-width: 767px) {
+  header {
+    z-index: 1;
+    height: 140.625vw;
+  }
+
+  header .header-dimmer-gradient {
+    background: linear-gradient(180deg, rgba(33,26,90,0.8) 0%, rgba(33,26,90,0) 80%);
+  }
+
+  header .rellax img {
+    width: 150vw !important;
+    margin-left: -25%;
+  }
+
+  header .header-content .call-to-action {
+    border-radius: 25px;
+    font-size: 4vw;
+    padding: .5rem 2rem;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+  }
+
+  header .header-content .nav {
+    display: none
+  }
+
+  header .header-content .header-text {
+    text-align: center !important;
+    padding: 0 6% 6% !important;
+    margin-top: -15px;
+  }
+
+  header .header-content .header-text h1 {
+    font-size: 15vw;
+  }
+
+  header .header-content .header-text h2 {
+    font-size: 6vw;
+  }
+
+  header .header-content .header-text h1,
+  header .header-content .header-text h2 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .container {
+    margin-top: -100px;
+  }
+
+  .intro h1 {
+    font-size: 8vw;
+  }
+
+  .intro h4 {
+    font-size: 3vw;
+  }
+
+  .intro .lead {
+    font-size: 3.6vw;
+  }
+}
