@@ -1,6 +1,12 @@
 body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+.btn {
+  border-radius: 25px;
+  font-weight: 800;
 }
 
 header {
@@ -93,7 +99,6 @@ header .header-content .nav a {
   font-size: 1.5vw;
   box-shadow: none !important;
   transition: color .3s ease, background-color .3s ease;
-  border-radius: 25px;
   padding: 0.5rem 2rem;
 }
 
@@ -105,7 +110,6 @@ header .header-content .nav a:hover {
 header .header-content .call-to-action {
   color: white;
   background-color: #ff006a;
-  border-radius: 25px;
   font-weight: 800;
   font-size: 2vw;
   padding: .5rem 2rem;
@@ -204,13 +208,20 @@ section {
 
 footer {
   background-color: #652FFF;
-  background-image: url('img/footer-wave.svg');
-  background-position: top;
-  background-repeat: no-repeat;
   position: relative;
   z-index: 12;
 }
 
-footer svg {
-  background-color: white;
+footer .footer-links .btn {
+  font-size: 1.8vw;
+  transition: color .3s ease, background-color .3s ease;
+}
+
+footer .footer-links .btn:hover {
+  background: white;
+  color: #652FFF !important;
+}
+
+footer .social-icons .btn {
+  font-size: 3vw;
 }

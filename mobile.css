@@ -44,7 +44,7 @@
     margin: 0 !important;
   }
 
-  .container {
+  .intro {
     margin-top: -100px;
   }
 
@@ -58,5 +58,13 @@
 
   .intro .lead {
     font-size: 3.6vw;
+  }
+
+  footer .footer-links .btn {
+    font-size: 6vw;
+  }
+
+  footer .social-icons .btn {
+    font-size: 8vw;
   }
 }
