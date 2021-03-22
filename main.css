@@ -232,12 +232,23 @@ section {
   font-size: 1.5vw;
 }
 
-.bounties {
-  background-image: url('img/content-bounties.png');
+.content-bg {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 50vw;
+}
+
+.content-bg1 {
+  background-image: url('img/content-bounties.png');
+}
+
+.content-bg2 {
+  background-image: url('img/content-tipping.png');
+}
+
+.content-bg3 {
+  background-image: url('img/content-promotion.png');
 }
 
 footer {
