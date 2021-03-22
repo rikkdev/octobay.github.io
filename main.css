@@ -9,6 +9,14 @@ body {
   font-weight: 800;
 }
 
+.vw-25 {
+  width: 25vw !important;
+}
+
+.vw-50 {
+  width: 50vw !important;
+}
+
 header {
   position: relative;
   z-index: 1;
@@ -204,6 +212,32 @@ section {
 
 .intro .lead {
   font-size: 1.8vw;
+}
+
+.card {
+  border-radius: 25px;
+  opacity: 0.9;
+}
+
+.card h4 {
+  font-size: 1.5vw;
+}
+
+.card h1 {
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.card p {
+  font-size: 1.5vw;
+}
+
+.bounties {
+  background-image: url('img/content-bounties.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50vw;
 }
 
 footer {
