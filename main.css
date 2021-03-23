@@ -262,7 +262,6 @@ section {
 .content-bg {
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
   min-height: 50vw;
   position: relative;
   z-index: 13;
@@ -270,14 +269,17 @@ section {
 
 .content-bg1 {
   background-image: url('img/content-bounties.png');
+  background-position: 75% center;
 }
 
 .content-bg2 {
   background-image: url('img/content-tipping.png');
+  background-position: 25% center;
 }
 
 .content-bg3 {
   background-image: url('img/content-promotion.png');
+  background-position: 75% center;
 }
 
 footer {
