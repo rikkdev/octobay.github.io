@@ -282,6 +282,24 @@ section {
   background-position: 75% center;
 }
 
+.animation {
+  overflow: hidden;
+}
+
+.animation img {
+  width: 100%;
+}
+
+.animation-right {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.animation-left {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
 footer {
   background-color: #652FFF;
   position: relative;
