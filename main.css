@@ -194,6 +194,33 @@ section {
   z-index: 2;
 }
 
+.wave {
+  width: 100vw;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  margin: 0 -10px;
+  position: relative;
+  z-index: 12;
+}
+
+.wave-top {
+  background-image: url('img/wave-top.svg');
+  background-position: 0px 1px;
+  height: 9.0972vw;
+}
+
+.wave-bottom {
+  background-image: url('img/wave-bottom.svg');
+  background-position: 0px -1px;
+  height: 4.884vw;
+}
+
+.wave-footer {
+  background-image: url('img/wave-footer.svg');
+  background-position: 0px 1px;
+  height: 12.53388vw;
+}
+
 .accent-color {
   color: #652FFF
 }
@@ -237,6 +264,8 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 50vw;
+  position: relative;
+  z-index: 13;
 }
 
 .content-bg1 {
