@@ -17,6 +17,10 @@ body {
   width: 50vw !important;
 }
 
+.vw-75 {
+  width: 75vw !important;
+}
+
 header {
   position: relative;
   z-index: 1;
@@ -206,19 +210,19 @@ section {
 .wave-top {
   background-image: url('img/wave-top.svg');
   background-position: 0px 1px;
-  height: 9.0972vw;
+  height: 0.97222222vw;
 }
 
 .wave-bottom {
   background-image: url('img/wave-bottom.svg');
   background-position: 0px -1px;
-  height: 4.884vw;
+  height: 4.883958333vw;
 }
 
 .wave-footer {
   background-image: url('img/wave-footer.svg');
   background-position: 0px 1px;
-  height: 12.53388vw;
+  height: 12,533880556vw;
 }
 
 .accent-color {
