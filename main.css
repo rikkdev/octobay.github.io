@@ -210,7 +210,7 @@ section {
 .wave-top {
   background-image: url('img/wave-top.svg');
   background-position: 0px 1px;
-  height: 0.97222222vw;
+  height: 9.097222222vw;
 }
 
 .wave-bottom {
@@ -222,7 +222,7 @@ section {
 .wave-footer {
   background-image: url('img/wave-footer.svg');
   background-position: 0px 1px;
-  height: 12,533880556vw;
+  height: 12.533880556vw;
 }
 
 .accent-color {
