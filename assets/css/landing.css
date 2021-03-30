@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
 }
 
@@ -102,7 +102,7 @@ header .header-content .nav {
   z-index: 11;
   top: 0;
   right: 0;
-  margin: 15px
+  margin: 15px;
 }
 
 header .header-content .nav a {
@@ -110,7 +110,7 @@ header .header-content .nav a {
   font-weight: 800;
   font-size: 1.5vw;
   box-shadow: none !important;
-  transition: color .3s ease, background-color .3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease;
   padding: 0.5rem 2rem;
 }
 
@@ -124,7 +124,7 @@ header .header-content .call-to-action {
   background-color: #ff006a;
   font-weight: 800;
   font-size: 2vw;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
 }
 
@@ -165,7 +165,11 @@ header .header-dimmer-gradient {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(180deg, rgba(33,26,90,0.4) 0%, rgba(33,26,90,0) 80%);
+  background: linear-gradient(
+    180deg,
+    rgba(33, 26, 90, 0.4) 0%,
+    rgba(33, 26, 90, 0) 80%
+  );
   z-index: 10;
 }
 
@@ -183,7 +187,7 @@ header .rellax img {
 }
 
 .layer-dev::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 100vh;
   top: 100%;
@@ -208,25 +212,25 @@ section {
 }
 
 .wave-top {
-  background-image: url('img/wave-top.svg');
+  background-image: url("/img/wave-top.svg");
   background-position: 0px 1px;
   height: 9.097222222vw;
 }
 
 .wave-bottom {
-  background-image: url('img/wave-bottom.svg');
+  background-image: url("/img/wave-bottom.svg");
   background-position: 0px -1px;
   height: 4.883958333vw;
 }
 
 .wave-footer {
-  background-image: url('img/wave-footer.svg');
+  background-image: url("/img/wave-footer.svg");
   background-position: 0px 1px;
   height: 12.533880556vw;
 }
 
 .accent-color {
-  color: #652FFF
+  color: #652fff;
 }
 
 .font-weight-bolder {
@@ -272,17 +276,17 @@ section {
 }
 
 .content-bg1 {
-  background-image: url('img/content-bounties.png');
+  background-image: url("/img/content-bounties.png");
   background-position: 75% center;
 }
 
 .content-bg2 {
-  background-image: url('img/content-tipping.png');
+  background-image: url("/img/content-tipping.png");
   background-position: 25% center;
 }
 
 .content-bg3 {
-  background-image: url('img/content-promotion.png');
+  background-image: url("/img/content-promotion.png");
   background-position: 75% center;
 }
 
@@ -305,19 +309,19 @@ section {
 }
 
 footer {
-  background-color: #652FFF;
+  background-color: #652fff;
   position: relative;
   z-index: 12;
 }
 
 footer .footer-links .btn {
   font-size: 1.8vw;
-  transition: color .3s ease, background-color .3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 footer .footer-links .btn:hover {
   background: white;
-  color: #652FFF !important;
+  color: #652fff !important;
 }
 
 footer .social-icons .btn {

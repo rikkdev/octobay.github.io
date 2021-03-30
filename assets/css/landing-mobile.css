@@ -5,7 +5,11 @@
   }
 
   header .header-dimmer-gradient {
-    background: linear-gradient(180deg, rgba(33,26,90,0.8) 0%, rgba(33,26,90,0) 80%);
+    background: linear-gradient(
+      180deg,
+      rgba(33, 26, 90, 0.8) 0%,
+      rgba(33, 26, 90, 0) 80%
+    );
   }
 
   header .rellax img {
@@ -16,12 +20,12 @@
   header .header-content .call-to-action {
     border-radius: 25px;
     font-size: 4vw;
-    padding: .5rem 2rem;
+    padding: 0.5rem 2rem;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
   }
 
   header .header-content .nav {
-    display: none
+    display: none;
   }
 
   header .header-content .header-text {
@@ -55,12 +59,12 @@
   .card h4 {
     font-size: 3.6vw;
   }
-  
+
   .card h1 {
     font-weight: bold;
     font-size: 8vw;
   }
-  
+
   .card p {
     font-size: 3.6vw;
   }
