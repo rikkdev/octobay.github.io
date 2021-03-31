@@ -9,13 +9,12 @@
         class="card p-md-5 p-4 mb-auto border-0 shadow-lg vw-50 rellax"
         v-rellax="{speed:-1.3}"
       >
-        <h4 class="accent-color">Innovative Marketplace to Outsource Tasks</h4>
-        <h1>Claim Bounties</h1>
+        <h4 class="accent-color">Claim your Bounties</h4>
+        <h1>Automated Payment Process</h1>
         <p class="m-0">
-          Octobay provided trustless bounties for open source projects hosted on GitHub.<br>
+          We have completely cut out the extra effort to pay your developers. As soon as the work is done, the developer can collect his reward. <br>
           <br>
-          Each reward can be stored in a smart contract to act as a middleman between the customer and the developer.
-          Once an issue is closed, the contributor can claim his reward without additional consense from the maintainer.
+          Bounty is claimable once the issue is closed, the author/contributor can request a withdrawal on which the Chainlink oracles check if the required conditions are met.
         </p>
       </div>
       <div

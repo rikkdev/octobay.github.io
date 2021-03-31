@@ -9,13 +9,12 @@
         v-rellax="{speed:-1}"
         style="margin-top: -4vw;"
       >
-        <h4 class="accent-color">Innovative Marketplace to Outsource Tasks</h4>
-        <h1>GitHub Integrated</h1>
+        <h4 class="accent-color">Do not Disrupt your Workflow</h4>
+        <h1>Making a Smooth GitHub Transition</h1>
         <p class="m-0">
-          Octobay provided trustless bounties for open source projects hosted on GitHub.<br>
+          Octobay adapts to your existing workflow with GitHub<br>
           <br>
-          Each reward can be stored in a smart contract to act as a middleman between the customer and the developer.
-          Once an issue is closed, the contributor can claim his reward without additional consense from the maintainer.
+          We accelerate the processing of your Github issues with our developer community. No matter if you want to include experts or beginners in your open source community
         </p>
       </div>
       <div
